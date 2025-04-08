@@ -76,7 +76,7 @@ exports.lobbyInterval = (lobby) => {
 
     lobby.players.forEach((pl) => {
       const player = `${pl.move !== lobby.curMove ? "You" : pl.username}`;
-      let message = `${player} Exceeded Time Limit - Selecting Random Move!`;
+      let message = `${player} Exceeded Time Limit - Random Move Selected!`;
       if (result) {
         result.state =
           result.state === "draw"
