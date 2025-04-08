@@ -42,7 +42,7 @@ module.exports = (ws, data) => {
         game: {
           grid: lobby.gameGrid,
           curMove: lobby.curMove,
-          totalTime: !result ? lobby.totalTime : 3500,
+          totalTime: !result ? lobby.totalTime : 2400,
           timeLimit: lobby.timeLimit,
           result: !result ? { state: null, pattern: null } : result,
         },
