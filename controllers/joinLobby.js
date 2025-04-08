@@ -43,7 +43,7 @@ function joinLobbyHelper(ws, curLobby, newPlayer = null) {
     data: {
       alert: "success",
       username: newPlayer.username,
-      message: `${newPlayer.username} joined the lobby`,
+      message: `User joined lobby`,
     },
     type: "user-joined",
   });
